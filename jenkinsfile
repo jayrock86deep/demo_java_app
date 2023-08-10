@@ -7,8 +7,10 @@ pipeline{
         stage('Git Checkout'){
                     
             steps{
+
                script{
-                   git branch: 'main' , url: 'git branch: 'main', url: 'https://github.com/jayrock86deep/demo_java_app.git'
+
+                   git branch: 'main', url: 'https://github.com/jayrock86deep/demo_java_app.git'
                }
 
             }
