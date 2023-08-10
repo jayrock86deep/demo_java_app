@@ -1,0 +1,17 @@
+pipeline{
+
+    agent any
+
+    stages{
+         
+        stage('Git Checkout'){
+                    
+            steps{
+               script{
+                   git branch: 'main' , url: 'git branch: 'main', url: 'https://github.com/jayrock86deep/demo_java_app.git''
+               }
+
+            }
+        }
+    }
+}
