@@ -13,8 +13,6 @@ pipeline{
                 url: "https://github.com/jayrock86deep/demo_java_app.git"
                )
                }
-
-            }
         }
     }
 }
