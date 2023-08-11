@@ -1,3 +1,5 @@
+@Library('jenkins_shared_lib') _
+
 pipeline{
 
     agent any
@@ -9,14 +11,9 @@ pipeline{
             steps{
 
                script{
-<<<<<<< HEAD
                    gitCheckout(
                       branch: "main",
                       url: "https://github.com/jayrock86deep/demo_java_app.git"
-=======
-
-                   git branch: 'main', url: 'https://github.com/jayrock86deep/demo_java_app.git'
->>>>>>> 318845bb6114b70d6431d8b87cb16d1f5b7e4f96
                }
 
             }
